@@ -107,7 +107,7 @@ Now the client and server should both be running and configured for your persona
 
 A basic usage video guide for the adaptive e-learning application can be accessed [here](https://youtu.be/IcLdVCNwRqc)
 
-Thesis Report.pdf also contains additional usage examples and instruction to be used in conjunction with the video guide.
+Thesis Report.pdf also contains additional usage examples and instruction.
 
 ## Contact Information
 If you have any questions relating to the setup or usage of the application please send a request explaining the details of your query and what you would like my help with to and I would be happy to assist:  
