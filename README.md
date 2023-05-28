@@ -112,5 +112,4 @@ Thesis Report.pdf also contains additional usage examples and instruction.
 ## Contact Information
 If you have any questions relating to the setup or usage of the application please send a request explaining the details of your query and what you would like my help with to and I would be happy to assist:  
 The initial author of this system: William Watson - willw66@mac.com
-	
 The later refinement made by: Wenjie Wang - 1002wangwenjie@gmail.com
