@@ -1,0 +1,6 @@
+(define (problem 637dd1dd5673a4af6e6a3f81)
+			(:domain learning)
+			(:objects 637dd1dd5673a4af6e6a3f81 - student)
+			(:init (dummy)  (LO1 637dd1dd5673a4af6e6a3f81)  (LO11 637dd1dd5673a4af6e6a3f81)  (LO12 637dd1dd5673a4af6e6a3f81)  (LO2 637dd1dd5673a4af6e6a3f81)  (LO3 637dd1dd5673a4af6e6a3f81)  (LO4 637dd1dd5673a4af6e6a3f81))
+			(:goal (and (LO28 637dd1dd5673a4af6e6a3f81)))
+	)
