@@ -8,7 +8,7 @@
 * [Contact Information](#contact-information)
 
 ## General info
-Proof-of-concept AI planning system for adaptive e-learning. This system was created as part of an undergraduate honours thesis to fulfil a requirement for the degree of Bachelor of Engineering in Software Engineering at UNSW. 
+Proof-of-concept AI planning system for adaptive e-learning. This system was initially created by William Watson as part of an undergraduate honours thesis to fulfil a requirement for the degree of Bachelor of Engineering in Software Engineering at UNSW, and later was refined by Wenjie Wang. 
 	
 ## Technologies
 A brief high-level overview of the tech stack used in this project:
@@ -32,13 +32,12 @@ To run this project, install it by following these steps in order:
 **First make sure to download [MongoDB](https://www.mongodb.com/try/download/community)**  
 After the download is complete follow the setup instructions to start an instance for your specific operating system. Details of which can be found on the MongoDB site linked above.
 
-Once MongoDB has been installed and is running, make sure to connect it to your GUI of choice (e.g. Studio3T). Ensure that the DATABASE field in server/.env matches the instance you have created.
+Once MongoDB has been installed and is running, make sure to connect it to your GUI of choice (e.g. Studio3T). Ensure that the DATABASE field in server/.env matches the instance you have created. Note that you should download MongoDB for Linux system.
 
 **Amazon Web Services**  
 In order to utilise Amazon S3 for content storage and Amazon SES for mailing features the follow steps must be followed carefully:
 
-* Open the [AWS Management Console](https://aws.amazon.com/console/)
-* Either login with an existing account or create a new one. (Note: the level of usage for development mode in this application will not incur any charges, but be aware if this is taken to production the pricing structure should be considered)
+* Create/Login a root account on Amazon Web Service Website and Open the [AWS Management Console](https://aws.amazon.com/console/)
 * Using the top search bar navigate to Amazon Simple Email Service and create an identify following the instructional video on the application page
 * Once you have verified the email update the EMAIL_FROM variable in server/.env
 * This will be the admin email address that any user of the platform will receieve important communications from
@@ -94,6 +93,7 @@ The server will now be running http://localhost:8000 (The port may be changed in
 
 **FF-X (Fast-Forward Planner)**  
 The application's AI planning capabilities are configured to run using FF-X. Note that this planner is written in C and will only run on Linux Operating Systems (Developed for **Ubuntu 20.04.5**), and some versions of Windows - it does **not** compile on any versions of MacOS. To ensure smooth running of the application please follow these steps to ensure that FF is compatabile with your OS.
+Important: You don't have to run the FF Planner alone, intead, your server code will call FF planner to execute. If you still want to run it, you can type the following command (in the 'adaptive-elearning' directory)
 
 **Whilst in the 'adaptive-elearning' directory**
 ```
@@ -111,4 +111,5 @@ Thesis Report.pdf also contains additional usage examples and instruction to be 
 
 ## Contact Information
 If you have any questions relating to the setup or usage of the application please send a request explaining the details of your query and what you would like my help with to and I would be happy to assist:  
-William Watson - willw66@mac.com
+The initial author of this system: William Watson - willw66@mac.com
+The later refinement made by: Wenjie Wang - 1002wangwenjie@gmail.com
